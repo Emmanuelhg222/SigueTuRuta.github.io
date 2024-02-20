@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigue tu ruta</title>
+    <link rel = "icon" href = "Logo.jpeg" type = "image/x-icon">
+    <link href="Estilos.css" rel="stylesheet" type = "text/css">
+    <link href="fa/css/fontawesome.css" rel="stylesheet">
+    <link href="fa/css/brands.css" rel="stylesheet">
+    <link href="fa/css/solid.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script> <!-- PARA QUE FUNCIONE CON MI ARCHIVO PROPIO EN LA CARPETA-->
+    <style>
+        body {
+            background-image: url('Fondo.jpg');
+            background-size: cover; /* This property ensures the image covers the entire HTML document */
+            
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body> 
+    <div class="container">
+        <img src="Logo.jpeg" alt="Imagen de inicio de sesión" width="150" height="150">
+        <h1 style="text-align: left;">Inicia sesión</h1>
+        <form action="login.php" method="post">
+            <label style="text-align: left" for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="nombre@ejemplo.com">
+            <label style="text-align: left" for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="display: flex; align-items: center;">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Mantén la sesión abierta</label>
+                </div>                
+                    <p class="sign-up" style="margin: 0;"><a href="recuperar-contrasena.php">¿Olvidaste tu contraseña?</a></p>              
+            </div> 
+            <br>   
+            <button type="submit">Iniciar sesión</button>
+        </form>
+        <div class="social-login">        
+
+        <!-- Botón de Facebook -->
+        <button class="redesSociales"><i class="fab fa-facebook-f"></i> Facebook</button>        
+        <!-- Botón de Google -->
+        <button class="redesSociales"><i class="fab fa-google"></i> Google</button>
+        <!-- Botón de Twitter -->
+        <button class="redesSociales"><i class="fab fa-twitter"></i> Twitter</button>
+    </div>
+    <div class="sign-up">
+        <p>¿No tienes una cuenta? <a href="sign-up.php">Regístrate</a></p>
+    </div>
+    </div>
+</body>
+</html>
+</body>
+</html>
